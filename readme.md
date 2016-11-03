@@ -6,4 +6,4 @@ Extinct Bird
 
 ##[Extinct Bird](https://LeahSmyth.github.io/extinct-bird/index.html)
 
-##[Extinct Bird 1](https://LeahSmyth.githuub.io/extict-bird/index1.html)
+##[Extinct Bird 1](https://LeahSmyth.github.io/extict-bird/index1.html)
