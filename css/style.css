@@ -40,6 +40,11 @@ cite{font-size:.9em;
 
 /*------------------*/
 
+.parallax h1{position:absolute;
+			left:1em;
+			top:4em;
+            right:10em;}
+
  h1 {font-family: 'Roboto Slab', serif;
          	font-weight:normal;
             color:#000;
@@ -81,7 +86,7 @@ h5{font-family: 'Roboto Slab', serif;
 	margin:5px;
 	color:#fff;
 	text-decoration:none;
-	font-size:1em;
+	font-size:.9em;
 	font-weight:bold;}
 
 nav {padding-top:1em;
@@ -105,13 +110,6 @@ nav{position:fixed;
 			color:#EE273C;
 			font-weight:bold;}
 
-/*------------------*/
-
-.takhe{background-color:#72CFEA;}
-
-.quest{background-color:#EE273C;}
-
-.nz{background-color:#73B243;}
 /*------------------*/
 
 .foot{background-color:#1F4280;
