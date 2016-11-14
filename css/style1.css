@@ -190,7 +190,7 @@ tr:nth-child(even) {background-color: #f2f2f2}
 		height:20px;
 		margin-top:2em;}
 
-footer{font-size:.7em;
+.footr{font-size:.7em;
 	color:#000;
 	padding-top:0em;
 	padding-bottom:1em;
@@ -200,4 +200,14 @@ footer{font-size:.7em;
 	width:100%;
 	background:#fff;
 	text-decoration:none;
+		}
+
+.love{font-family: 'Gentium Basic', serif;
+	   font-size:.8em;
+        text-align:center;
+		padding-bottom:1.5em;
+		padding-left:3em;
+		padding-top:0em;
+		padding-right:6em;
+		color:#EE273C;
 		}
