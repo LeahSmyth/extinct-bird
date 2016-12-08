@@ -22,6 +22,7 @@ p{padding-bottom:.5em;
 	padding-top:.5em;
 	line-height:1.5em;
 	color:#000;
+    text-align:justify;
 	}
 
 blockquote{font-size:1.1em;
@@ -61,32 +62,25 @@ cite{font-size:.9em;
 
 .white{padding-bottom:2em;}
 
-.map{padding-bottom:1em;}
-
 /*------------------*/
 
 .parallax h1{position:absolute;
-			left:1em;
-			top:4em;
-            right:10em;}
+			left:.5em;
+			top:2em;
+            right:8em;}
 
 .parallax h3{position:absolute;
 			left:0em;
 			top:38em;
             right:35em;}
 
-.parallax h5{position:absolute;
-			left:0em;
-			top:53em;
-            right:46em;}
-
  h1 {font-family: 'Roboto Slab', serif;
          	font-weight:normal;
             color:#000;
 			text-align: center;
-            font-size:4em;
-			padding-top:1em;
+            font-size:5em;
 			padding-bottom:0em;
+            line-height:1.6;
 			}
 
 h2 {font-family: 'Roboto Slab', serif;
@@ -106,12 +100,6 @@ h3 {font-family: 'Roboto Slab', serif;
 	color:#000;
 	}
 
-h5{font-family: 'Roboto Slab', serif;
-	font-size:.8em;
-	line-height:1.25em;
-	text-align:justify;
-	text-align:right;}
-
 /*------------------*/
 
 .nav a{font-family: 'Roboto Slab', serif;
@@ -127,8 +115,8 @@ h5{font-family: 'Roboto Slab', serif;
 nav {padding-top:1em;
 	padding-bottom:1em;}
 
-nav ul {text-align:left;
-        padding-left:2em;}
+nav ul {text-align:right;
+        padding-right:2em;}
 
 nav ul li {display:inline;
 	margin:5px;
@@ -149,24 +137,49 @@ nav{position:fixed;
 /*------------------*/
 
 .takimg{width:40%;
-    padding-left:3.5em;
-    float:left;
-    margin-right:1.5em;
+    padding-right:3.5em;
+    float:right;
+    margin-left:1.5em;
     margin-bottom:.1em;
+    margin-top:.8em;
 }
 
 .man{float:right;
     width:50%;
     padding-right:3em;
-    margin-left:1.5em;}
+    margin-left:1.5em;
+    margin-top:1em;}
 
-.moa{width:30%;
+.moa{width:26%;
     float:left;
-    margin-top:-3em;
+    margin-top:-4em;
     padding-left:3.5em;
     margin-right:1.5em;}
 
+#map{float:left;
+    padding-left:3.9em; 
+    padding-bottom:1em;
+    margin-right:1em;
+    width:40%;
+    height:35.5em;
+    margin-top:.8em;}
+
+.bottombird{height:500px;
+            padding-left:48em;}
+
+.top{width:45%;
+    margin-bottom:1em;
+    padding-left:21em;}
+
+.bottom{width:45%;
+        margin-top:1em;
+        padding-left:22em;}
+    
+
 /*------------------*/
+
+.esttab{margin-top:1em;
+        margin-bottom:1em;}
 
 caption{font-family: 'Roboto Slab', serif; 
 	font-size:1.3em;
@@ -208,7 +221,8 @@ tr:nth-child(even) {background-color: #f2f2f2}
 .foot1{background-color:#EE273C;
 		height:1em;}
 
-.footr p{color: #fff;}
+.footr p{color:#fff;}
+
 .footr{font-size:.6em;
 	color:#ffffff;
 	padding-top:1em;
@@ -225,7 +239,7 @@ tr:nth-child(even) {background-color: #f2f2f2}
 	   font-size:.7em;
         text-align:center;
 		padding-bottom:1.5em;
-		padding-left:3em;
+		padding-left:5em;
 		padding-top:1em;
 		padding-right:6em;
 		color:#EE273C;
