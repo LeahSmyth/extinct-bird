@@ -10,27 +10,50 @@
 		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 		
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-		
-	</head>
-	
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+         <script>
+ $(function() {
+   $('a[href*=#]:not([href=#])').click(function() {
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+       var target = $(this.hash);
+       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+       if (target.length) {
+         $('html,body').animate({
+           scrollTop: target.offset().top
+         }, 1000);
+         return false;
+       }
+     }
+   });
+ });
+ </script>
+        
+</head>
+<body>
+
 	<header>
 			<nav class="nav">   
 			<ul>
-	<li><a href="#bird">Takahe Bird</a></li>			
-	<li><a href="#birds">Vanished Birds</a></li>			
-	<li><a href="#quest">The Quest</a></li>
-	<li><a href="#winter">Severe Winters</a></li>
-    <li><a href="#new zealand">New Zealand</a></li>
-	<li><a href="#facts">Facts</a></li>
+    <li><a href="#top">Home</a></li>
+    <li><a href="#bird">The Bird</a></li>      
+    <li><a href="#quest">The Quest</a></li> 
+    <li><a href="#new-zealand">New Zealand</a></li>
+    <!--<li><a href="http://www.nationalgeographic.com/"><img class="NG" src="image/NG.svg"></a></li>-->
      </ul>
 		</nav></header>
-	
+    
+    <div id="top"></div>
+    
 		<div class="parallax"><h1>Finding an &#96;Extinct&acute; New Zealand Bird</h1>
         <h3>Rediscovered by a Persevering Doctor, the Flightless, Colorful Takahe, Struggles to Survive</h3>
             <h5>By R. V. Francis Smith</h5>
 		</div>
     
-        <style>
+<body>
+
+<div class="parallax">        <style>
 .parallax {
     background-image: url("image/background.png");
     min-height:400px;
@@ -40,12 +63,9 @@
     background-size: cover;
 }
 </style>
-<body>
+</div>
 
-<div class="parallax"></div>
-
-<div style="height:350px;background-color:#EE273C;font-family:'Libre Baskerville',serif;line-height:1.5em;
-	font-size:1em;color:#fff;padding-top:3em;">
+<div class="red1">
 
 <p class="red">In New Zealand's rugged Fiordland a bird thought extinct for fifty years is struggling for survival. Behind the rare species in its fight for life is all the protective power of the Dominion Government.</p>
 
@@ -57,8 +77,8 @@
 
 </div>
 
-    
-<h2 id="bird">Takahe Bird</h2>
+  <div class="white" id="bird">  
+<h2>Takahe Bird</h2>
    
     <img class="takimg" src="image/takahe.jpg"/>
 
@@ -114,35 +134,26 @@
 
     <p></p>
     
-        <p><blockquote>"It originally occurred throughout forest and grass ecosystems. Today it is restricted to alpine tussock grasslands on the mainland and feeds primarily on juices from the bases of snow tussock and a species of fern rhizome. It eats introduced grasses on the islands. It usually lays two eggs and chicks can begin breeding at the end of their first year, but usually start in their second. It is long-lived, probably 14-20 years."</p>
+        <blockquote><p>"It originally occurred throughout forest and grass ecosystems. Today it is restricted to alpine tussock grasslands on the mainland and feeds primarily on juices from the bases of snow tussock and a species of fern rhizome. It eats introduced grasses on the islands. It usually lays two eggs and chicks can begin breeding at the end of their first year, but usually start in their second. It is long-lived, probably 14-20 years."</p>
     
     <cite>&#45;Heather and Robertson</cite></blockquote>
+      
+      </div>
     
-    <p></p>
-    
-    <p></p>
-    
-    <p></p>
-    
-<div style="height:575px;background-color:#72CFEA;font-family:'Libre Baskerville',serif;line-height:1.5em;
-	font-size:1em;color:#fff;padding-top:.6em;">
+<div class="blue1">
 
-    <h2 id="quest" class="blue">The Thirty-Year Quest</h2>
+    <h2 id="winter" class="red">Severe Winters</h2>
 
-<img class="man" src="image/bent-billiard-pipe.jpg"/>
-    
-<p class="blue">Dr. Orbell's interest in the creature began more than thirty years ago when, as a boy, he found an old photograph showing the museum bird in a case. His mother told its story and explained that the bird was supposed to be extinct.</p>
+<p class="red">From observations over three nesting seasons, it seems that most, if not ail, of the birds in the main Notornis Valley breed yearly, but very few chicks are hatched and raised. In the 1949-50 season, 40 percent of the observed eggs were totally infertile, only three chicks were hatched, and by February, 1950, only one remained alive. It is now known, however, that several birds besides those under observation were nesting.</p>
 
-<p class="blue">That word "supposed" stimulated Dr. Orbell's adventurous spirit, and he learned all he could about the species. From game rangers and from men who had probed the fastnesses of Fiordland, from hearsay and from stories told around campfires on numerous hunting trips, Dr. Orbell picked up fragments of information about possible takahe hiding places.</p>
+<p class="red">The availability of snow grass and other food during severe winters, when the area is deeply covered with snow, is an important factor in the survival of the species. A dead adult bird, untouched by predators, was found in the main valley in the spring of 1949. This and other complete skeletons have suggested that starvation is a not uncommon cause of death.</p>
 
-<p class="blue">In 1945 Dr. Orbell built a summer home at Lake Te Anau, where two of the birds had been caught. The question of the takahe's existence and whereabouts was always with him, but he seldom mentioned the matter except jokingly or as a bait to catch information. In this way he learned that a man who knew the country round about always carried his rifle loaded when in a certain area.</p>
-
-<p class="blue">"It might be worth &pound;400 to &pound;500," the man said with a knowing air.</p>
+<p class="red">Every endeavor is being made to preserve these contemporaries of New Zealand's extinct giant moa, swan, and eagle, interesting creatures sorely missed. But if measures to combat predators prove ineffective, if nesting shelter and food suffer serious depletion, if a severe winter strikes, or if infertility increases-if anyone or a combination of these mishaps overtakes back-to-the-wall notornis -then the species must inevitably join the heath hen, the dodo, the great auk, and others that are lost to the world forever.</p>
 
     </div>
     
-    
-		<h2 id="birds">Vanished Birds</h2>
+    <div class="white">
+        <h2 id="birds">Vanished Birds</h2>
 
 <img class="moa" src="image/moa.png"/>
     
@@ -161,25 +172,23 @@
 <p>The fourth specimen was caught by a dog on the shore of Middle Fiord of Lake Te Anau in 1898. The bird was bought by the Government for &pound;250 to ensure that it remained in New Zealand. Preserved in the Otago Museum at Dunedin, it still is the only mounted specimen in the country, for no more takahe were known until Dr. Orbell's discovery.</p>
 
 <p>Notornis Valley, in South Island's Murchison Mountains, lies only six miles from a main road; yet it hid the takahe from human sight for decades. From boyhood Dr. G. B. Orbell, an Invercargill physician, reiused to believe the creature lost. After thirty years his quest succeeded; Dr. Orbell tracked the takahe to the scene of its last stand in one of the wildest parts of the Dominion.</p>
-  
-    <p></p>
-    
-    <p></p>
-    
-    <p></p>
-
-<div style="height:430px;background-color:#69E89A;font-family:'Libre Baskerville',serif;line-height:1.5em;
-	font-size:1em;color:#fff;padding-top:.6em;">
-    
-<h2 id="winter" class="gr">Severe Winters</h2>
-
-<p class="gr">From observations over three nesting seasons, it seems that most, if not ail, of the birds in the main Notornis Valley breed yearly, but very few chicks are hatched and raised. In the 1949-50 season, 40 percent of the observed eggs were totally infertile, only three chicks were hatched, and by February, 1950, only one remained alive. It is now known, however, that several birds besides those under observation were nesting.</p>
-
-<p class="gr">The availability of snow grass and other food during severe winters, when the area is deeply covered with snow, is an important factor in the survival of the species. A dead adult bird, untouched by predators, was found in the main valley in the spring of 1949. This and other complete skeletons have suggested that starvation is a not uncommon cause of death.</p>
-
-<p class="gr">Every endeavor is being made to preserve these contemporaries of New Zealand's extinct giant moa, swan, and eagle, interesting creatures sorely missed. But if measures to combat predators prove ineffective, if nesting shelter and food suffer serious depletion, if a severe winter strikes, or if infertility increases-if anyone or a combination of these mishaps overtakes back-to-the-wall notornis -then the species must inevitably join the heath hen, the dodo, the great auk, and others that are lost to the world forever.</p>
     </div>
     
+    
+    <div id="quest" class="red1">
+    
+    <h2 class="red">The Thirty-Year Quest</h2>
+
+<img class="man" src="image/bent-billiard-pipe.jpg"/>
+    
+<p class="red">Dr. Orbell's interest in the creature began more than thirty years ago when, as a boy, he found a photograph showing the museum bird in a case. His mother told its story and explained that the bird was supposed to be extinct.</p>
+
+<p class="red">That word "supposed" stimulated Dr. Orbell's adventurous spirit, and he learned all he could about the species. From game rangers and from men who had probed the fastnesses of Fiordland, from hearsay and from stories told around campfires on numerous hunting trips, Dr. Orbell picked up fragments of information about the takahe.</p>
+
+<p class="red">In 1945 Dr. Orbell built a summer home at Lake Te Anau, where two of the birds had been caught. The question of the takahe's existence and whereabouts was always with him, but he seldom mentioned the matter except jokingly or as a bait to catch information.</p>
+	</div>
+    
+    <div class="white">
     <h2 id="facts">Facts</h2>
 <table border="1" width"50%">
 <tr><td>Population:</td><td> 4,107,000</td></tr>
@@ -192,58 +201,55 @@
 <tr><td>GDP per Capita:</td><td> U.S. $20,100</td></tr>
 <tr><td>Literacy Percent:</td><td> 99</td></tr>
 </table>
+    </div>
     
-    <p></p>
+    <div id="new-zealand" class="blue1">
     
-    <p></p>
+    <h2 class="red">New Zealand</h2>
+
+<p class="red">New Zealand is a fertile and mountainous group of islands in the southwestern Pacific Ocean. "It is a land uplifted high," wrote Abel Tasman, a Dutch navigator who was the first European to sight New Zealand, in 1642. Snowy peaks, fjord-scarred shores, and pastures dotted with sheep define this country.</p>
+
+<p class="red">New Zealand, a parliamentary democracy modeled on that of the United Kingdom, has been a self-governing British dominion since 1907. It became a founding member of the British Commonwealth in 1926.</p>
+
+<p class="red">One in three citizens&#45;Kiwis&#45;lives in or around the city of Auckland. Rugby clubs with names such as Canterbury and Wellington reveal a nation peopled mostly by descendants of British settlers. The indigenous Maori constitute about 15 percent of New Zealanders; recent immigrants&#45;primarily from Samoa and Fiji&#45;make Auckland one of the world's largest Polynesian cities.</p>
+
+<p class="red">The export&#45;driven country, whose chief trading partner used to be the United Kingdom, faltered in 1973 when Britain joined the European Union. The loss of preferential treatment prompted a search for new markets. Japan, Australia, and the U.S. now buy half of all exports, which include wool, mutton, lamb, beef, cheese, fish, and chemicals.</p>
+
+<p class="red">New Zealand plays an active role in helping democratic nations and emerging Pacific island economies. It sent troops to East Timor when violence broke out in 1999, and it provided millions of dollars to the South Pacific island of Niue after it was devastated by a tropical cyclone in 2004. Niue and the Cook Islands enjoy a status of self-government in free association with New Zealand.</p>
+
     
-    <p></p>
+    <div id="map" style="width:50%;height:500px"></div>
 
-<div style="height:570px;background-color:#1F4280;font-family:'Libre Baskerville',serif;line-height:1.5em;
-	font-size:1em;color:#fff;padding-top:.6em;">
-    
-<h2 class="blu" id="new zealand">New Zealand</h2>
-
-<p class="blu">New Zealand is a fertile and mountainous group of islands in the southwestern Pacific Ocean. "It is a land uplifted high," wrote Abel Tasman, a Dutch navigator who was the first European to sight New Zealand, in 1642. Snowy peaks, fjord-scarred shores, and pastures dotted with sheep define this country.</p>
-
-<p class="blu">New Zealand, a parliamentary democracy modeled on that of the United Kingdom, has been a self-governing British dominion since 1907. It became a founding member of the British Commonwealth in 1926.</p>
-
-<p class="blu">One in three citizens&#45;Kiwis&#45;lives in or around the city of Auckland. Rugby clubs with names such as Canterbury and Wellington reveal a nation peopled mostly by descendants of British settlers. The indigenous Maori constitute about 15 percent of New Zealanders; recent immigrants&#45;primarily from Samoa and Fiji&#45;make Auckland one of the world's largest Polynesian cities.</p>
-
-<p class="blu">The export&#45;driven country, whose chief trading partner used to be the United Kingdom, faltered in 1973 when Britain joined the European Union. The loss of preferential treatment prompted a search for new markets. Japan, Australia, and the U.S. now buy half of all exports, which include wool, mutton, lamb, beef, cheese, fish, and chemicals.</p>
-
-<p class="blu">New Zealand plays an active role in helping democratic nations and emerging Pacific island economies. It sent troops to East Timor when violence broke out in 1999, and it provided millions of dollars to the South Pacific island of Niue after it was devastated by a tropical cyclone in 2004. Niue and the Cook Islands enjoy a status of self-government in free association with New Zealand.</p>
-	</div>
-        <style>
-.parallax {
-    background-image: url("image/background.png");
-    min-height:400px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(-40.900557,174.885971), 
+    zoom:5
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
 }
-</style>
+</script>
 
-        <div class="foot"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script></div>
+        
+    <div class="white"></div>
+    
+        <div class="foot1"></div>
 
 <footer class="footr"><p>* See, in the National Geographic Magazine: "The Columbus of the Pacific: Captain James Cook," by J. R. Hildebrand, January, 1927; and "Tuatara: 'Living Fossils' Walk on Well-Nigh Inaccessible Rocky Islands off the Coast of New Zealand," by Frieda Cobb Blanchard, May, 1935.</p>
 
-
-
-<p>Copyright 1952. R. V. Francis Smith</p>
-
-
-
-<p>Published by the National Geographic Society, Washington, D.C.</p>
+<p>Copyright 1952. R. V. Francis Smith. Published by the National Geographic Society, Washington, D.C.</p>
 
 <p>Article: Copyright, 1952, by National Geographic Society, Washington, D.C. International copyright secured. All rights reserved. Printed in U.S.A. Entered at the Post Office at Washington, D.C., as Second Class Mail Matter. Acceptance for mailing at special rate of postage provided for in Sec. 1103, Act of October 3, 1917, authorized July 1, 1918. Cover design and names registered in United States Patent Office.</p>
 
-<p>New Zealand Facts: Copyright, 1995-2015, by National Geographic Society, Washington, D.C.</p>  </footer>
+<p>New Zealand Facts: Copyright, 1995-2015, by National Geographic Society, Washington, D.C.</p> 
+    
+    </footer>    
     
     <footer class="love">Made with &#9829; by: Leah Smyth 2016 &#169</footer>
     
-   
+    </body>
     
 </html>
 

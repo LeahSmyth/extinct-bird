@@ -17,26 +17,51 @@ body { max-width:100%;
 			background:#fff;}
 
 p{padding-bottom:.5em;
-	padding-left:3em;
-	padding-right:3em;
+	padding-left:3.5em;
+	padding-right:3.5em;
 	padding-top:.5em;
 	line-height:1.5em;
-	font-size:1em;
 	color:#000;
 	}
 
-blockquote{font-size:1.2em;
+blockquote{font-size:1.1em;
 			line-height:1.5em;
 			padding-left:5em;
 			padding-right:5em;
-			padding-top:1.2em;
-			padding-bottom:1em;}
+			padding-top:1.7em;
+			padding-bottom:1em;
+            border-top: 2px solid #EE273C;
+			border-bottom: 2px solid #EE273C;}
 
 cite{font-size:.9em;
-	line-height: 1.2em;
+	line-height:1.2em;
 	padding-top:1em;
 	padding-bottom:1em;
-	padding-left:76em;}
+	padding-left:56em;}
+
+.red{color:#fff;}
+
+.red1{padding-bottom:1.6em;
+    background-color:#EE273C;
+    font-family:'Libre Baskerville',serif;
+    line-height:2em;
+	font-size:1em;
+    color:#fff;
+    padding-top:.6em;}
+
+.red1 p{line-height:2;}
+
+.blue1{padding-bottom:1.6em;
+    background-color:#4d4d4d;
+    font-family:'Libre Baskerville',serif;
+    line-height:1.5em;
+	font-size:1em;
+    color:#fff;
+    padding-top:.6em;}
+
+.white{padding-bottom:2em;}
+
+.map{padding-bottom:1em;}
 
 /*------------------*/
 
@@ -44,6 +69,16 @@ cite{font-size:.9em;
 			left:1em;
 			top:4em;
             right:10em;}
+
+.parallax h3{position:absolute;
+			left:0em;
+			top:38em;
+            right:35em;}
+
+.parallax h5{position:absolute;
+			left:0em;
+			top:53em;
+            right:46em;}
 
  h1 {font-family: 'Roboto Slab', serif;
          	font-weight:normal;
@@ -56,14 +91,13 @@ cite{font-size:.9em;
 
 h2 {font-family: 'Roboto Slab', serif;
             color:#000;
-			text-align: center;
+			text-align:center;
     		font-size:2em;
-			padding-top:1.5em;
-			padding-bottom:.8em;
-			}
+			padding-top:1em;
+            padding-bottom:.8em;}
 
 h3 {font-family: 'Roboto Slab', serif; 
-	font-size:2.5em;
+	font-size:1em;
 	line-height:1.5em;
 	padding-top:2em;
 	padding-bottom:.1em;
@@ -73,30 +107,32 @@ h3 {font-family: 'Roboto Slab', serif;
 	}
 
 h5{font-family: 'Roboto Slab', serif;
-	font-size:1.25em;
+	font-size:.8em;
 	line-height:1.25em;
 	text-align:justify;
 	text-align:right;}
 
 /*------------------*/
 
-.nav a{
+.nav a{font-family: 'Roboto Slab', serif;
 	padding:4em 0;
-	text-align:center;
-	margin:5px;
+	text-align:right;
+	margin:6px;
 	color:#fff;
 	text-decoration:none;
 	font-size:.9em;
-	font-weight:bold;}
+	font-weight:bold;
+    }
 
 nav {padding-top:1em;
 	padding-bottom:1em;}
 
-nav ul {text-align:center;}
+nav ul {text-align:left;
+        padding-left:2em;}
 
 nav ul li {display:inline;
 	margin:5px;
-	text-align:center;}
+	text-align:right;}
 
 nav{position:fixed;
 	top:0;
@@ -112,18 +148,85 @@ nav{position:fixed;
 
 /*------------------*/
 
-.foot{background-color:#1F4280;
-		height:20px;
-		margin-top:2em;}
+.takimg{width:40%;
+    padding-left:3.5em;
+    float:left;
+    margin-right:1.5em;
+    margin-bottom:.1em;
+}
 
-footer{font-size:.7em;
-	color:#000;
-	padding-top:0em;
+.man{float:right;
+    width:50%;
+    padding-right:3em;
+    margin-left:1.5em;}
+
+.moa{width:30%;
+    float:left;
+    margin-top:-3em;
+    padding-left:3.5em;
+    margin-right:1.5em;}
+
+/*------------------*/
+
+caption{font-family: 'Roboto Slab', serif; 
+	font-size:1.3em;
+	line-height:1.5em;
+	padding-top:.5em;
+	padding-bottom:.1em;
+	text-align:justify;
+	text-align:center;
+	color:#000;}
+
+table {margin:auto;
+        width:45%;
+        border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {height:40px;
+    text-align:center;
+    background-color: #EE273C;
+    color: white;
+}
+
+td {
+    height:25px;
+    text-align:center;
+}
+
+th, td {
+    border:1.5px solid #ddd;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+/*------------------*/
+
+.foot1{background-color:#EE273C;
+		height:1em;}
+
+.footr p{color: #fff;}
+.footr{font-size:.6em;
+	color:#ffffff;
+	padding-top:1em;
 	padding-bottom:1em;
 	text-align:center;
 	left:0;
 	margin:0;
 	width:100%;
-	background:#fff;
+	background:#000;
 	text-decoration:none;
+		}
+
+.love{font-family: 'Gentium Basic', serif;
+	   font-size:.7em;
+        text-align:center;
+		padding-bottom:1.5em;
+		padding-left:3em;
+		padding-top:1em;
+		padding-right:6em;
+		color:#EE273C;
 		}

@@ -41,11 +41,27 @@ cite{font-size:.9em;
 
 .red{color:#fff;}
 
-.blue{color:#fff;}
+.red1{padding-bottom:1.6em;
+    background-color:#EE273C;
+    font-family:'Libre Baskerville',serif;
+    line-height:2em;
+	font-size:1em;
+    color:#fff;
+    padding-top:.6em;}
 
-.gr{color:#fff;}
+.red1 p{line-height:2;}
 
-.blu{color:#fff;}
+.blue1{padding-bottom:1.6em;
+    background-color:#4d4d4d;
+    font-family:'Libre Baskerville',serif;
+    line-height:1.5em;
+	font-size:1em;
+    color:#fff;
+    padding-top:.6em;}
+
+.white{padding-bottom:2em;}
+
+.map{padding-bottom:1em;}
 
 /*------------------*/
 
@@ -98,23 +114,25 @@ h5{font-family: 'Roboto Slab', serif;
 
 /*------------------*/
 
-.nav a{
+.nav a{font-family: 'Roboto Slab', serif;
 	padding:4em 0;
-	text-align:center;
-	margin:5px;
+	text-align:right;
+	margin:6px;
 	color:#fff;
 	text-decoration:none;
 	font-size:.9em;
-	font-weight:bold;}
+	font-weight:bold;
+    }
 
 nav {padding-top:1em;
 	padding-bottom:1em;}
 
-nav ul {text-align:center;}
+nav ul {text-align:left;
+        padding-left:2em;}
 
 nav ul li {display:inline;
 	margin:5px;
-	text-align:center;}
+	text-align:right;}
 
 nav{position:fixed;
 	top:0;
@@ -138,12 +156,13 @@ nav{position:fixed;
 }
 
 .man{float:right;
-    width:40%;
+    width:50%;
     padding-right:3em;
     margin-left:1.5em;}
 
 .moa{width:30%;
     float:left;
+    margin-top:-3em;
     padding-left:3.5em;
     margin-right:1.5em;}
 
@@ -186,28 +205,28 @@ tr:nth-child(even) {background-color: #f2f2f2}
 
 /*------------------*/
 
-.foot{background-color:#1F4280;
-		height:20px;
-		margin-top:2em;}
+.foot1{background-color:#EE273C;
+		height:1em;}
 
-.footr{font-size:.7em;
-	color:#000;
-	padding-top:0em;
+.footr p{color: #fff;}
+.footr{font-size:.6em;
+	color:#ffffff;
+	padding-top:1em;
 	padding-bottom:1em;
 	text-align:center;
 	left:0;
 	margin:0;
 	width:100%;
-	background:#fff;
+	background:#000;
 	text-decoration:none;
 		}
 
 .love{font-family: 'Gentium Basic', serif;
-	   font-size:.8em;
+	   font-size:.7em;
         text-align:center;
 		padding-bottom:1.5em;
 		padding-left:3em;
-		padding-top:0em;
+		padding-top:1em;
 		padding-right:6em;
 		color:#EE273C;
 		}
