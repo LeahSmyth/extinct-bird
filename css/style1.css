@@ -49,6 +49,23 @@ cite{font-size:.9em;
     color:#fff;
     padding-top:.6em;}
 
+.two{
+    -webkit-column-count:2; /* Chrome, Safari, Opera */
+    -moz-column-count:2; /* Firefox */
+    column-count:2;
+}
+
+.two{padding-bottom:.5em;
+	padding-left:0em;
+	padding-right:5em;
+	padding-top:.5em;
+	line-height:1.3em;
+	font-size:1.2em;
+	color:#000;
+    text-align:justify;
+	font-family: 'Gentium Basic', serif;
+	}
+
 .red1 p{line-height:2;}
 
 .blue1{padding-bottom:1.6em;
@@ -167,6 +184,8 @@ nav{position:fixed;
             padding-left:48em;}
 
 /*------------------*/
+
+.t-bird{margin-bottom:2em;}
 
 caption{font-family: 'Roboto Slab', serif; 
 	font-size:1.3em;
