@@ -220,25 +220,22 @@
     
     <h2 class="red">New Zealand</h2>
         
-    
-            <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat:-40.900557, lng:174.885971};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA72EaP7gr4j014a_fw4KA3YMgUZzCSZZ8&callback=initMap">
-    </script>
         
+<div id="map"></div>
+
+<script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(-40.900557,174.885971),
+        zoom:6,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+        
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
 
 <p class="red">New Zealand is a fertile and mountainous group of islands in the southwestern Pacific Ocean. "It is a land uplifted high," wrote Abel Tasman, a Dutch navigator who was the first European to sight New Zealand, in 1642.</p>
 
