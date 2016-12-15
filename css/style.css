@@ -25,20 +25,21 @@ p{padding-bottom:.5em;
     text-align:justify;
 	}
 
-blockquote{font-size:1.3em;
+blockquote{font-size:1.5em;
 			line-height:1.5em;
 			padding-left:5em;
 			padding-right:5em;
 			padding-top:1.7em;
 			padding-bottom:1em;
             color:#fff;
-            text-align:left;}
+            text-align:left;
+            font-style:italic;}
 
-cite{font-size:.7em;
+cite{font-size:.6em;
 	line-height:1.2em;
 	padding-top:1em;
 	padding-bottom:1em;
-	padding-left:2.5em;}
+	padding-left:3.3em;}
 
 .red{color:#fff;}
 
@@ -102,8 +103,8 @@ h2 {font-family: 'Roboto Slab', serif;
             color:#000;
 			text-align:center;
     		font-size:2em;
-			padding-top:1.1em;
-            padding-bottom:.8em;}
+			padding-top:1.5em;
+            padding-bottom:1em;}
 
 h3 {font-family: 'Roboto Slab', serif; 
 	font-size:1em;
@@ -116,7 +117,6 @@ h3 {font-family: 'Roboto Slab', serif;
 	}
 
 /*------------------*/
-
 .nav a{font-family: 'Roboto Slab', serif;
 	padding:4em 0;
 	text-align:right;
@@ -149,7 +149,7 @@ nav{position:fixed;
 			color:#EE273C;
 			font-weight:bold;}
 
-#nat-geo{margin-right:49em;
+#nat-geo{margin-right:75em;
         color:yellow;}
 
 .nav li:hover,
@@ -165,6 +165,23 @@ nav{position:fixed;
 }
 
 .nav li {
+    -webkit-transition:border .2s;
+    transition:border .2s;
+}
+
+.natgeo li:hover,
+.natgeo li.navHover,
+.natgeo li.current-menu-item {
+    background:none;
+    border-bottom:0px solid #fff;
+}
+
+.natgeo li {
+    -webkit-transition:background .2s;
+    transition:background .2s;
+}
+
+.natgeo li {
     -webkit-transition:border .2s;
     transition:border .2s;
 }
