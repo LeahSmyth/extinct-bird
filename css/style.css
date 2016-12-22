@@ -117,8 +117,8 @@ h3 {font-family: 'Roboto Slab', serif;
 	}
 
 /*------------------*/
-.nav a{font-family: 'Roboto Slab', serif;
-	padding:4em 0;
+nav a{font-family: 'Roboto Slab', serif;
+	padding:.1em 0;
 	text-align:right;
 	margin:6px;
 	color:#fff;
@@ -145,55 +145,26 @@ nav{position:fixed;
 	background:#000;
 	z-index:2;}
 
-.nav a:hover{text-decoration:none;
+nav a:hover{text-decoration:none;
 			color:#EE273C;
 			font-weight:bold;}
 
-#nat-geo{margin-right:75em;
+#nat-geo{margin-right:49em;
         color:yellow;}
 
-.nav li:hover,
-.nav li.navHover,
-.nav li.current-menu-item {
-    background:none;
-    border-bottom:2px solid #fff;
-}
-
-.nav li {
-    -webkit-transition:background .2s;
-    transition:background .2s;
-}
-
-.nav li {
-    -webkit-transition:border .2s;
-    transition:border .2s;
-}
-
-.natgeo li:hover,
-.natgeo li.navHover,
-.natgeo li.current-menu-item {
-    background:none;
-    border-bottom:0px solid #fff;
-}
-
-.natgeo li {
-    -webkit-transition:background .2s;
-    transition:background .2s;
-}
-
-.natgeo li {
-    -webkit-transition:border .2s;
-    transition:border .2s;
-}
+.primary-nav:hover {
+  border-bottom: 2px solid #fff;
+ }
 
 /*------------------*/
 
 #takimg{width:40%;
-    padding-right:3.5em;
+    margin-right:3.5em;
     float:right;
     margin-left:1.5em;
     margin-bottom:.1em;
     margin-top:.8em;
+    border:solid 1px #000;
 }
 
 #man{float:right;
@@ -201,7 +172,7 @@ nav{position:fixed;
     margin-right:3em;
     margin-left:1.5em;
     margin-top:1em;
-    border:solid 1px #fff;}
+    border:solid 2px #fff;}
 
 #moa{width:26%;
     float:left;
@@ -210,12 +181,11 @@ nav{position:fixed;
     margin-right:4em;}
 
 #map{float:left;
-    padding-left:3.9em; 
-    padding-bottom:1em;
+    margin-bottom:1em;
     margin-right:1em;
-    width:45%;
-    height:41.5em;
-    margin-top:.8em;}
+    margin-top:.8em;
+    border-bottom:2px solid #fff;
+    border-top:2px solid #fff;}
 
 .bottombird{height:500px;
             padding-left:48em;}
@@ -640,7 +610,6 @@ cite{font-size:.7em;
 
 #bird{padding-top:.7em;}
 
-
 .parallax h1{position:absolute;
 			left:1em;
 			top:2em;
@@ -687,7 +656,6 @@ h3 {font-family: 'Roboto Slab', serif;
 	font-weight:bold;
     }
 
-
 nav ul {text-align:left;
         padding-left:.5em;}
 
@@ -699,7 +667,7 @@ nav ul li {display:inline;
         color:yellow;}
 
 #takimg{width:40%;
-    padding-right:1em;
+    margin-right:1em;
     float:right;
     margin-left:1.5em;
     margin-bottom:.1em;
@@ -723,8 +691,8 @@ nav ul li {display:inline;
     padding-left:1em; 
     margin-bottom:2em;
     margin-right:1em;
-    width:90%;
-    height:20em;
+    width:400px;
+    height:2em;
     margin-top:.8em;}
 
 .bottombird{height:200px;
