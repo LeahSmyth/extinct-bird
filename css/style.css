@@ -484,7 +484,8 @@ nav ul li {display:inline;
 #man{width:100%;}
     
 .box{height:16em;
-    margin-bottom:.5em;}
+    margin-right:1em;
+    margin-bottom:0em;}
 
 .box .simple-caption {height:3em;
                     bottom:-3em;}
@@ -696,13 +697,13 @@ nav ul li {display:inline;
         color:yellow;}
 
 
-#takimg{width:100%;}
+#takimg{width:100%; height:100%;}
 
-#man{width:100%;}
+#man{width:100%; height:100%;}
     
 .box{margin-right:.8em;
-    height:10em;
-    margin-bottom:.5em;}
+    height:12em;
+    margin-bottom:0em;}
 
 .box .simple-caption {height:2em;
                     bottom:-2em;}
